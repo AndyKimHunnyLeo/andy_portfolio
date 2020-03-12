@@ -1,2 +1,0 @@
-(this.webpackJsonpandy_portfolio=this.webpackJsonpandy_portfolio||[]).push([[0],{3:function(n,e,t){n.exports=t(8)},8:function(n,e,t){"use strict";t.r(e);var o=t(0),a=t.n(o),r=t(2);var i=function(){return a.a.createElement("span",null,"daoidhioawdoqw")};t.n(r).a.render(a.a.createElement(i,null),document.getElementById("root"))}},[[3,1,2]]]);
-//# sourceMappingURL=main.b8e58fac.chunk.js.map
