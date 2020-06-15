@@ -1,15 +1,16 @@
 import React from 'react'
-import './projects.css';
+import './Projects.css';
 import movie from "../images/movie_app.png"
 import momentum from "../images/Momentum.png"
 import paintJS from "../images/paintJS.png"
+import uride1 from "../images/URide1.png"
+import uride2 from "../images/URide2.png"
 
-class projects extends React.Component {
-    componentDidMount() {
-        document.title = "Projects | Andy Kim"
-    }
+class Projects extends React.Component {
+
+
     render() {
-        return <div class="proj" >
+        return <div class="proj" id="skills" >
             <div class="intro">
                 <div class="proj_skills_list">
                     <h1 class="proj_skill">SKILLS</h1>
@@ -67,10 +68,44 @@ class projects extends React.Component {
                         </div>
                     </div>
                     <div class="proj_proj">
-                        <span class="proj_proj_name">Projects</span>
-                        <span class="proj_title">web projects</span>
-                        <img src={movie} alt="MongoDB" class="proj_img"></img>
+                        <span class="proj_proj_name" id="projects">Projects</span>
+                        <span class="proj_title">Application projects</span>
+
                         <div class="proj_proj_intro">
+                            <div className="slide_container">
+                                {/* <Slide class="proj_img"  {...properties}> */}
+                                <img src={uride1} alt="MongoDB" class="slide_images"   ></img>
+                                <img src={uride2} alt="MongoDB" class="slide_images"   ></img>
+                                {/* </Slide> */}
+                            </div>
+                            <div class="proj_proj_text">
+                                <div class="proj_proj_title">
+                                    URIDE
+                                <div>
+                                        {/* <a href="https://polarmushroom.github.io/movie_app/     " target="_blank" rel="noopener noreferrer" class="proj_button">DEMO</a>
+                                <a href="https://github.com/PolarMushroom/movie_app" target="_blank" rel="noopener noreferrer" class="proj_button">CODE</a> */}
+                                    </div>
+                                </div>
+                                <span class="proj_text">I created a full-stack and scalable Uber replica, which allows users to get full authentication whether which register, lost password, and get different priorities on each account.  Each user gets to choose whether they are drivers or customers. They can set their profile and even upload their photo. Customers can choose which type of car they want and it charges differently. I implemented google map so customer can check their destination and where is driver. Driver can get customer signals with their location vice versa. Customers get to pay with the distance they traveled with the driver with little extra for interest. Database saves location drivers picked customers up and charges customers when they said driving ends. Customer can pay their payment with Paypal or Credit card. Everything happens in real-time. All backends are built with firebase including user authentication.
+                        <div class="proj_proj_skills">
+                                        <span class="skill_name">Android</span>
+                                        <span class="skill_name">Google Service</span>
+                                        <span class="skill_name">HTML</span>
+                                        <span class="skill_name">Firebase</span>
+                                        <span class="skill_name">Full Authentication</span>
+                                        <span class="skill_name">Real-Time</span>
+                                        <span class="skill_name">Storage</span>
+                                        <span class="skill_name">Paypal</span>
+                                    </div>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <span class="proj_title">web projects</span>
+                    <div class="proj_proj_intro">
+                        <img src={movie} alt="MongoDB" class="proj_img"></img>
+                        <div class="proj_proj_text">
                             <div class="proj_proj_title">
                                 MOVIE WORLD
                                 <div>
@@ -78,7 +113,7 @@ class projects extends React.Component {
                                     <a href="https://github.com/PolarMushroom/movie_app" target="_blank" rel="noopener noreferrer" class="proj_button">CODE</a>
                                 </div>
                             </div>
-                            <span class="proj_text">I developed a web application which offers Movie and TV show information using The MOVIE DB. The Movie page shows Now Playing, Upcoming Movies, and Popular movies. The TV show page offers Airing Today, Top Rated Shows, and Popular shows. Each Movie and each TV show has their own detail page, which offers program information.</span>
+                            <span class="proj_text">I developed a web application which offers Movie and TV show information using The MOVIE DB. The Movie page shows movie poster and brief summary of the movie such as year it published and genre. Each Movie and each TV show has their own detail page, which offers program information.</span>
                             <div class="proj_proj_skills">
                                 <span class="skill_name">react</span>
                                 <span class="skill_name">react router</span>
@@ -86,12 +121,14 @@ class projects extends React.Component {
                                 <span class="skill_name">axios</span>
                             </div>
                         </div>
+                    </div>
 
+                    <div class="proj_proj_intro">
                         <img src={momentum} alt="Momentum" class="proj_img"></img>
-                        <div class="proj_proj_intro">
+                        <div class="proj_proj_text">
                             <div class="proj_proj_title">
                                 Momentum
-                                <div>
+                                <div class="proj_src_buttons">
                                     <a href="https://polarmushroom.github.io/Momentum/" target="_blank" rel="noopener noreferrer" class="proj_button">DEMO</a>
                                     <a href="https://github.com/PolarMushroom/Momentum" target="_blank" rel="noopener noreferrer" class="proj_button">CODE</a>
                                 </div>
@@ -103,8 +140,10 @@ class projects extends React.Component {
                                 <span class="skill_name">JavaScript</span>
                             </div>
                         </div>
+                    </div>
+                    <div class="proj_proj_intro">
                         <img src={paintJS} alt="Momentum" class="proj_img"></img>
-                        <div class="proj_proj_intro">
+                        <div class="proj_proj_text">
                             <div class="proj_proj_title">
                                 PaintJs
                                 <div>
@@ -125,7 +164,8 @@ class projects extends React.Component {
             </div>
         </div>
 
+
     }
 }
 
-export default projects;
+export default Projects;

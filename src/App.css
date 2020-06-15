@@ -1,4 +1,7 @@
-.App {
-  text-align: center;
-  display: flex;
+/* .app {
+  width: 100%;
+} */
+
+html {
+  width: 100%;
 }
