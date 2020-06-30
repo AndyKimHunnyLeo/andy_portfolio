@@ -5,8 +5,8 @@ import "./Navigation.css"
 
 function Navigation() {
     return (
-        <div class="nav">
-            <ul class="headerContainer">
+        <div className="nav">
+            <ul className="headerContainer">
                 <Link activeClass="onClick"
                     to="home"
                     spy={true}
@@ -14,9 +14,9 @@ function Navigation() {
                     hashSpy={true}
                     offset={0}
                     duration={500}
-                    class="nav_text a"
+                    className="nav_text a"
                 >
-                    <span class="text">HOME</span>
+                    <span className="text">HOME</span>
                 </Link>
                 <Link activeClass="onClick"
                     to="skills"
@@ -25,9 +25,9 @@ function Navigation() {
                     hashSpy={true}
                     offset={-50}
                     duration={500}
-                    class="nav_text a"
+                    className="nav_text a"
                 >
-                    <span class="text">SKILLS</span>
+                    <span className="text">SKILLS</span>
                 </Link>
                 <Link activeClass="onClick"
                     to="projects"
@@ -36,9 +36,9 @@ function Navigation() {
                     hashSpy={true}
                     offset={-80}
                     duration={500}
-                    class="nav_text a"
+                    className="nav_text a"
                 >
-                    <span class="text">PROJECTS</span>
+                    <span className="text">PROJECTS</span>
                 </Link>
                 <Link activeClass="onClick"
                     to="contact"
@@ -47,9 +47,9 @@ function Navigation() {
                     hashSpy={true}
                     offset={0}
                     duration={500}
-                    class="nav_text a"
+                    className="nav_text a"
                 >
-                    <span class="text">CONTACTS</span>
+                    <span className="text">CONTACTS</span>
                 </Link>
                 {/* 
             <button onClick="" class="nav_text a">home</button>

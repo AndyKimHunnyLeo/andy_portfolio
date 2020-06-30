@@ -9,7 +9,7 @@ import Footer from '../components/Footer'
 import Navigation from '../components/Navigation';
 function index() {
     return (
-        <div class="app">
+        <div className="app">
             <Navigation />
             <Home />
             <Projects />
