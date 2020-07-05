@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/andy_portfolio/static/css/main.bb9914d5.chunk.css",
-    "main.js": "/andy_portfolio/static/js/main.87cf2361.chunk.js",
-    "main.js.map": "/andy_portfolio/static/js/main.87cf2361.chunk.js.map",
+    "main.css": "/andy_portfolio/static/css/main.a531b7b6.chunk.css",
+    "main.js": "/andy_portfolio/static/js/main.8ed5f8fe.chunk.js",
+    "main.js.map": "/andy_portfolio/static/js/main.8ed5f8fe.chunk.js.map",
     "runtime-main.js": "/andy_portfolio/static/js/runtime-main.9a499a68.js",
     "runtime-main.js.map": "/andy_portfolio/static/js/runtime-main.9a499a68.js.map",
     "static/css/2.ee60f1da.chunk.css": "/andy_portfolio/static/css/2.ee60f1da.chunk.css",
-    "static/js/2.251379ad.chunk.js": "/andy_portfolio/static/js/2.251379ad.chunk.js",
-    "static/js/2.251379ad.chunk.js.map": "/andy_portfolio/static/js/2.251379ad.chunk.js.map",
+    "static/js/2.862305d5.chunk.js": "/andy_portfolio/static/js/2.862305d5.chunk.js",
+    "static/js/2.862305d5.chunk.js.map": "/andy_portfolio/static/js/2.862305d5.chunk.js.map",
     "index.html": "/andy_portfolio/index.html",
-    "precache-manifest.e4a751e4661bcd8c66d9086815db2052.js": "/andy_portfolio/precache-manifest.e4a751e4661bcd8c66d9086815db2052.js",
+    "precache-manifest.2764ff40ee259b8ef6cd526f16d4057b.js": "/andy_portfolio/precache-manifest.2764ff40ee259b8ef6cd526f16d4057b.js",
     "service-worker.js": "/andy_portfolio/service-worker.js",
     "static/css/2.ee60f1da.chunk.css.map": "/andy_portfolio/static/css/2.ee60f1da.chunk.css.map",
-    "static/css/main.bb9914d5.chunk.css.map": "/andy_portfolio/static/css/main.bb9914d5.chunk.css.map",
-    "static/js/2.251379ad.chunk.js.LICENSE.txt": "/andy_portfolio/static/js/2.251379ad.chunk.js.LICENSE.txt",
+    "static/css/main.a531b7b6.chunk.css.map": "/andy_portfolio/static/css/main.a531b7b6.chunk.css.map",
+    "static/js/2.862305d5.chunk.js.LICENSE.txt": "/andy_portfolio/static/js/2.862305d5.chunk.js.LICENSE.txt",
     "static/media/Momentum.png": "/andy_portfolio/static/media/Momentum.3032a331.png",
     "static/media/URide1.png": "/andy_portfolio/static/media/URide1.f9411809.png",
     "static/media/URide2.png": "/andy_portfolio/static/media/URide2.049220ba.png",
@@ -24,8 +24,8 @@
   "entrypoints": [
     "static/js/runtime-main.9a499a68.js",
     "static/css/2.ee60f1da.chunk.css",
-    "static/js/2.251379ad.chunk.js",
-    "static/css/main.bb9914d5.chunk.css",
-    "static/js/main.87cf2361.chunk.js"
+    "static/js/2.862305d5.chunk.js",
+    "static/css/main.a531b7b6.chunk.css",
+    "static/js/main.8ed5f8fe.chunk.js"
   ]
 }
