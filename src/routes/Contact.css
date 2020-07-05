@@ -1,8 +1,9 @@
 .contact {
   display: flex;
   width: 100%;
-  height: calc(560px + 20vmin);
+  height: calc(100vh - 200px);
   justify-content: center;
+  margin-top: 60px;
   z-index: 3;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   /* align-items: center; */
